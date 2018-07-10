@@ -22,20 +22,6 @@ ArchivesSpace vagrant box
     * username = "root", password = "root"
     * ArchivesSpace db = "aspace", username = "aspace", password = "aspace"
 
-## Windows Troubleshooting
-
-If you receive errors involving `\r` (end of line):
-
-Edit the global `.gitconfig` file, find the line:
-```
-autocrlf = true
-```
-and change it to
-```
-autocrlf = false
-```
-Remove and clone again. This will prevent windows git clients from automatically replacing unix line endings LF with windows line endings CRLF.
-
 ## Maintainers
 
 Current maintainers:
